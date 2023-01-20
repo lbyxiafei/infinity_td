@@ -1,0 +1,8 @@
+infinity_td
+{
+	material materials/overviews/infinity_td.vmat
+	pos_x -7168
+	pos_y 6592
+	scale 9.500
+}
+
