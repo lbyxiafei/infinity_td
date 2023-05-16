@@ -3,7 +3,7 @@ if GameSetup == nil then
 end
 
 --nil will not force a hero selection
-local forceHero = "npc_dota_hero_wisp"
+local forceHero = "wisp"
 
 
 function GameSetup:init()

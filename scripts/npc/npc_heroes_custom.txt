@@ -1,12 +1,6 @@
-// Dota Heroes File
-// NOTE: This is not for creating new heroes, this is for taking a currently existing hero as a template and overriding
-// the specified key-value combinations.  Use override_hero <hero_to_override> for this.
 "DOTAHeroes"
 {
-	//=================================================================================================================
-	// HERO: Templar Assassin
-	//=================================================================================================================
-	"builder"
+	"infi_builder"
 	{
 		"override_hero"				"npc_dota_hero_wisp"
 		"Ability1"					"templar_assassin_refraction_holdout"
@@ -14,6 +8,6 @@
 		"Ability3"					"batrider_sticky_napalm"
 		"Ability4"					"axe_berserkers_call"
 		"VisionNighttimeRange"		"1800"										// Range of vision at night time.
-		"ModelScale"                    "3.5"
+		"ModelScale"                    "1.0"
 	}
 }
