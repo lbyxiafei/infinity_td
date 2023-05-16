@@ -1,4 +1,4 @@
--- Generated from template
+require("game_setup")
 
 if CAddonTemplateGameMode == nil then
 	CAddonTemplateGameMode = class({})
@@ -22,6 +22,9 @@ end
 
 function CAddonTemplateGameMode:InitGameMode()
 	print( "Template addon is loaded." )
+
+	GameSetup:init()
+
 	GameRules:GetGameModeEntity():SetThink( "OnThink", self, "GlobalThink", 2 )
 end
 
