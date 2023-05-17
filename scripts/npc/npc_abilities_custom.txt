@@ -7,7 +7,7 @@
 		"BaseClass"						"ability_lua"
 		"ScriptFile"					"abilities/infi_ability_blink"
 
-		"AbilityTextureName"    		"dragon_knight_dragon_tail"
+		"AbilityTextureName"    		"antimage_blink"
 
 		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_POINT"
 		"AbilityUnitDamageType"			"DAMAGE_TYPE_PHYSICAL"	

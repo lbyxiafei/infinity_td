@@ -1,0 +1,8 @@
+template_16_16
+{
+	material materials/overviews/template_16_16.vmat
+	pos_x -2010
+	pos_y 2064
+	scale 4.000
+}
+

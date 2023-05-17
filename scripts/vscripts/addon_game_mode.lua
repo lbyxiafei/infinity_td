@@ -14,7 +14,6 @@ function Precache( context )
 	]]
 end
 
--- Create the game mode when we activate
 function Activate()
 	GameRules.AddonTemplate = InfiniteWar()
 	GameRules.AddonTemplate:InitGameMode()
@@ -28,7 +27,6 @@ function InfiniteWar:InitGameMode()
 	GameRules:GetGameModeEntity():SetThink( "OnThink", self, "GlobalThink", 2 )
 end
 
--- Evaluate the state of the game
 function InfiniteWar:OnThink()
 	if GameRules:State_Get() == DOTA_GAMERULES_STATE_GAME_IN_PROGRESS then
 		--print( "Template addon script is running." )
