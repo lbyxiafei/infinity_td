@@ -9,7 +9,7 @@
 		"Ability3"					""
 		"Ability4"					""
 
-		"Ability11"					""
+		"Ability6"					""
 
 		"VisionNighttimeRange"		"1800"										
 		"ModelScale"                    "1.0"
