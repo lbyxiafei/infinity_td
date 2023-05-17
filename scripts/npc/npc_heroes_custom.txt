@@ -1,13 +1,17 @@
 "DOTAHeroes"
 {
-	"infi_builder"
+	"infi_hero_builder"
 	{
 		"override_hero"				"npc_dota_hero_wisp"
-		"Ability1"					"templar_assassin_refraction_holdout"
-		"Ability2"					"bane_enfeeble"
-		"Ability3"					"batrider_sticky_napalm"
-		"Ability4"					"axe_berserkers_call"
-		"VisionNighttimeRange"		"1800"										// Range of vision at night time.
+
+		"Ability1"					"infi_ability_blink"
+		"Ability2"					""
+		"Ability3"					""
+		"Ability4"					""
+
+		"Ability11"					""
+
+		"VisionNighttimeRange"		"1800"										
 		"ModelScale"                    "1.0"
 	}
 }
